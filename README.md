@@ -20,7 +20,7 @@ Size:
 Training: 50,000 images.  
 Testing: 10,000 images.  
 
-**Model Architecture**  
+# Model Architecture
 
 Convolutional based  
 convolutional_base = ResNet50(weights='imagenet',include_top=False,input_shape=(256,256,3))  
@@ -44,7 +44,7 @@ model.add(Dropout(0.5))
 model.add(BatchNormalization())  
 model.add(Dense(10,activation='softmax'))  
 
-**Model Evaluation:**  
+# Model Evaluation:
 - Accuracy on Training Data: 97.28%  
 - Accuracy on Validation Data: 93.57%  
 - Accuracy on Testing Data: 93.81%
