@@ -4,7 +4,6 @@
 This project implements object recognition on the CIFAR-10 dataset using a ResNet-50 deep learning model. The CIFAR-10 dataset contains 60,000 images across 10 classes, with 50,000 images for training and 10,000 for testing. The model is trained and fine-tuned for accurate classification of the dataset's objects.
 
 ### **Features**  
-The dataset includes property attributes such as:  
 
 - ResNet-50 Architecture: A powerful deep learning model designed for image classification
 - Transfer Learning: Pretrained weights on ImageNet are used for faster and more efficient training.
